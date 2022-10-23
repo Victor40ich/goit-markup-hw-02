@@ -201,3 +201,6 @@
     letter-spacing: 0.03em;
     color: var(--benefits-color);
 }
+.button {
+    cursor: pointer;
+} 
