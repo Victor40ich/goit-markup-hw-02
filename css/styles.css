@@ -159,4 +159,7 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--first-title-color)
+}
