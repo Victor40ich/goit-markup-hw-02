@@ -1,3 +1,14 @@
 :root {
     --main-color: #212121;
+    --first-title-color: #2196F3;
+    --second-title-color: #000000;
+}
+body {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
