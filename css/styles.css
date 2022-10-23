@@ -209,4 +209,7 @@
 }
 .button {
     cursor: pointer;
-} 
+}
+.current {
+    color: var(--first-title-color);
+}
