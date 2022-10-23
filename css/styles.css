@@ -5,6 +5,7 @@
     --background-color: #FFFFFF;
     --background-color-hero: #2F303A;
     --benefits-color: #757575;
+    --button-color: #F5F4FA;
 }
 .body {
     font-family: 'Roboto', sans-serif;
@@ -175,8 +176,8 @@
     color: var(--first-title-color)
 }
 .work-button {
-        color: var(--background-color);
-        background: var(--first-title-color);
+        color: var(--main-color);
+        background: var(--button-color);
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -184,6 +185,11 @@
         line-height: calc(26/16);
         text-align: center;
         letter-spacing: 0.03em;
+}
+.work-button:hover,
+.work-button:focus {
+    background: var(--first-title-color);
+    color: var(--background-color);
 }
 .examples-list-title {
     font-family: 'Roboto';
